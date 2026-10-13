@@ -1,6 +1,6 @@
-import './styles/global.css'
 import Header from "@components/layout/Header/Header";
 import Router from "@components/common/Router/Router";
+import './styles/index.scss'
 
 import { useLocation } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
