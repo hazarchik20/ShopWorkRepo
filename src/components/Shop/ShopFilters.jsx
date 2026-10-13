@@ -1,4 +1,4 @@
-import sortIcon from '../assets/arrow-switch-horizontal.svg'
+import sortIcon from '../../assets/arrow-switch-horizontal.svg'
 
 function ShopFilters() {
   return (

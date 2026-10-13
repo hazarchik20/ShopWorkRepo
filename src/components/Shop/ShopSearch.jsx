@@ -1,6 +1,6 @@
-import searchIcon from '../assets/search.svg'
-import catalogIcon from '../assets/catalog.svg'
-import markerIcon from '../assets/marker-02.svg'
+import searchIcon from '../../assets/search.svg'
+import catalogIcon from '../../assets/catalog.svg'
+import markerIcon from '../../assets/marker-02.svg'
 
 function ShopSearch() {
     return (

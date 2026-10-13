@@ -1,4 +1,4 @@
-import character from '../assets/shop-character.png'
+import character from '../../assets/shop-character.png'
 
 function ShopHero() {
   return (
