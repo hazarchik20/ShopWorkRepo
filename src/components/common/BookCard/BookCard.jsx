@@ -1,5 +1,6 @@
 import bookPhoto from '@assets/book-photo.png'
 import bookHeart from '@assets/book-heart.svg'
+import './BookCard.scss'
 
 function BookCard({ title, price }) {
     return (

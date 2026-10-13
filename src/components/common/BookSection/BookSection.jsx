@@ -1,5 +1,6 @@
 import arrowIcon from '@assets/arrow-left-contained-01.svg'
 import BookCard from '@components/common/BookCard/BookCard'
+import './BookSection.scss'
 
 function BookSection({ title }) {
   return (

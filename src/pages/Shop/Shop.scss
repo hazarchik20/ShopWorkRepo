@@ -1,0 +1,34 @@
+.shop-top {
+  position: relative;
+  height: calc(632px - var(--header-height));
+  overflow: hidden;
+  background-color: #3b2b23;
+}
+
+.shop-content {
+  padding: 120px 6.25% 0;
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .shop-top {
+    height: calc(505.6px - var(--header-height));
+  }
+
+  .shop-content {
+    padding-top: 96px;
+  }
+}
+
+.shop-search-position {
+  position: absolute;
+  top: calc(544px - var(--header-height));
+  left: 6.25%;
+  right: 6.25%;
+  z-index: 1;
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .shop-search-position {
+    top: calc(435.2px - var(--header-height));
+  }
+}

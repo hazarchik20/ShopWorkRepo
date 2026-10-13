@@ -1,4 +1,5 @@
 import character from '@assets/shop-character.png'
+import './ShopHero.scss'
 
 function ShopHero() {
   return (

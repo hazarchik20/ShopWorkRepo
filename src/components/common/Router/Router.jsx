@@ -5,7 +5,6 @@ const AppRouter = () => {
     return (
         <Routes>
             <Route path="/" element={<Shop />} />
-            <Route path="login" element={<LoginMainPage/>}/>
         </Routes>
     );
 };

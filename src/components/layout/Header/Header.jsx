@@ -2,6 +2,7 @@ import logo from '../../../assets/logo.png'
 import cart from '../../../assets/cart.svg'
 import heart from '../../../assets/heart.svg'
 import user from '../../../assets/user-profile-01.svg'
+import './Header.scss'
 
 function Header() {
     return (

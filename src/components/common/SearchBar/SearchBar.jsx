@@ -1,10 +1,11 @@
 import searchIcon from '@assets/search.svg'
 import catalogIcon from '@assets/catalog.svg'
 import markerIcon from '@assets/marker-02.svg'
+import './SearchBar.scss'
 
-function ShopSearch() {
+function SearchBar() {
     return (
-        <div className="shop-search-controls">
+        <div className="search-bar">
             <button className="location-button" type="button">
                 <img src={markerIcon} alt="" />
                 <span>Уся Україна</span>
@@ -36,4 +37,4 @@ function ShopSearch() {
     )
 }
 
-export default ShopSearch
+export default SearchBar

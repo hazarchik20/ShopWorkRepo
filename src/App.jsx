@@ -1,6 +1,6 @@
-import './styles/global.css'
 import Header from "@components/layout/Header/Header";
 import Router from "@components/common/Router/Router";
+import './styles/index.scss'
 
 import { Toaster } from "react-hot-toast";
 
@@ -8,11 +8,9 @@ const App = () => {
     return (
         <div className="app">
             <Header />
-            <main>
-                <Router />
-            </main>
+            <Router />
 
-            <Toaster 
+            <Toaster
                 position="top-center"
                 toastOptions={{
                     duration: 2000,
