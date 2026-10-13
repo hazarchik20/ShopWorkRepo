@@ -1,5 +1,5 @@
-import bookPhoto from '../../../assets/book-photo.png'
-import bookHeart from '../../../assets/book-heart.svg'
+import bookPhoto from '@assets/book-photo.png'
+import bookHeart from '@assets/book-heart.svg'
 
 function BookCard({ title, price }) {
     return (

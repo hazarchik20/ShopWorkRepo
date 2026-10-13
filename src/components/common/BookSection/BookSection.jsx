@@ -1,5 +1,5 @@
-import arrowIcon from '../../../assets/arrow-left-contained-01.svg'
-import BookCard from '../BookCard/BookCard'
+import arrowIcon from '@assets/arrow-left-contained-01.svg'
+import BookCard from '@components/common/BookCard/BookCard'
 
 function BookSection({ title }) {
   return (
