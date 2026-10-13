@@ -2,15 +2,22 @@ import './styles/global.css'
 import Header from "@components/layout/Header/Header";
 import Router from "@components/common/Router/Router";
 
+import { useLocation } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 
 const App = () => {
+    const { pathname } = useLocation();
+
+    const isAuthPage = ["/login", "/register"].includes(pathname);
     return (
-        <div className="app">
-            <Header />
+         <div className="app">
+            {!isAuthPage && <Header />}
+
             <main>
                 <Router />
             </main>
+
+            {/* {!isAuthPage && <Footer />} */}
 
             <Toaster 
                 position="top-center"

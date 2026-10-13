@@ -11,7 +11,8 @@ export default defineConfig({
             '@api': '/src/api',
             '@styles': '/src/styles',
             '@pages': '/src/pages',
-            '@assets': '/src/assets'
+            '@assets': path.resolve(import.meta.dirname, 'src/assets'),
+            '@assets': '/src/assets',
         }
     }
 })
