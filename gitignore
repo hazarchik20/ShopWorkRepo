@@ -1,0 +1,706 @@
+
+# ============================================================
+# .NET / ASP.NET CORE / REACT / TYPESCRIPT / DOCKER
+# ============================================================
+
+
+# ============================================================
+# 1. .NET BUILD OUTPUTS
+# ============================================================
+
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+**/publish/
+**/Publish/
+**/artifacts/
+**/out/
+
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.ilk
+*.iobj
+*.ipch
+*.tlog
+*.lastbuildstate
+*.cache
+*.tmp
+*.temp
+
+# MSBuild
+*.binlog
+*.buildlog
+*.log
+*.msbuild.binlog
+*.FileListAbsolute.txt
+
+# Generated files
+*.AssemblyInfo.cs
+*.AssemblyAttributes.cs
+*.GeneratedMSBuildEditorConfig.editorconfig
+*.GlobalUsings.g.cs
+*.g.cs
+*.g.i.cs
+
+
+# ============================================================
+# 2. VISUAL STUDIO
+# ============================================================
+
+.vs/
+**/.vs/
+
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.slnx.user
+
+# Visual Studio cache
+*.VC.db
+*.VC.opendb
+*.VC.VC.opendb
+*.VC.db-shm
+*.VC.db-wal
+*.opendb
+*.sdf
+*.opensdf
+*.ipch
+
+# Visual Studio temporary files
+*.pidb
+*.svd
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Visual Studio profiler
+*.diagsession
+*.coverage
+*.coveragexml
+
+# Visual Studio generated folders
+ipch/
+Generated Files/
+Backup/
+_UpgradeReport_Files/
+UpgradeLog*.XML
+
+
+# ============================================================
+# 3. JETBRAINS RIDER / RESHARPER
+# ============================================================
+
+.idea/
+**/.idea/
+
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+*.sln.iml
+*.csproj.iml
+
+# Rider caches
+.idea_modules/
+*.iws
+*.ipr
+*.iml
+
+
+# ============================================================
+# 4. VISUAL STUDIO CODE
+# ============================================================
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+*.code-workspace.user
+.history/
+.localhistory/
+
+
+# ============================================================
+# 5. NUGET
+# ============================================================
+
+**/packages/*
+!**/packages/build/
+
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+
+.nuget/packages/
+.nuget/NuGet.Config.user
+
+# NuGet temporary files
+*.nuget.dgspec.json
+project.assets.json
+project.nuget.cache
+
+
+# ============================================================
+# 6. ASP.NET CORE CONFIGURATION
+# ============================================================
+
+# Local development configuration
+**/appsettings.Development.json
+**/appsettings.Local.json
+**/appsettings.*.local.json
+**/appsettings.*.Local.json
+
+# Local configuration overrides
+**/appsettings.override.json
+**/appsettings.Overrides.json
+
+# Keep appsettings.json and production templates tracked.
+# Never put real secrets in tracked configuration files.
+
+# Local launch settings (optional)
+# Uncomment if launchSettings.json contains private values.
+# **/Properties/launchSettings.json
+
+
+# ============================================================
+# 7. SECRETS / CREDENTIALS / CERTIFICATES
+# ============================================================
+
+# Secret files
+secrets.json
+**/secrets.json
+**/secrets/
+**/.secrets/
+
+# Private keys and certificates
+*.pfx
+*.p12
+*.p8
+*.p7b
+*.p7c
+*.pem
+*.key
+*.keytab
+*.jks
+*.keystore
+
+# SSH keys
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+
+# Cloud credentials
+.aws/
+.azure/
+.gcloud/
+
+# Terraform secrets
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+.terraform/
+
+# Local credential overrides
+credentials.json
+credentials.local.json
+service-account.json
+service-account-key.json
+
+
+# ============================================================
+# 8. ENTITY FRAMEWORK CORE
+# ============================================================
+
+# EF Core generated build files
+**/obj/
+**/bin/
+
+# Local database files
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+
+# Database backups
+*.bak
+*.bacpac
+*.dacpac
+*.bcp
+
+# SQL Server database files
+*.mdf
+*.ldf
+*.ndf
+
+# IMPORTANT:
+# EF Core migrations should be committed to Git.
+# Do not ignore Migrations/ folders.
+
+
+# ============================================================
+# 9. REACT / NODE.JS
+# ============================================================
+
+# Dependencies
+**/node_modules/
+**/jspm_packages/
+**/bower_components/
+
+# Build outputs
+**/dist/
+**/dist-ssr/
+**/build/
+**/out/
+**/.next/
+**/.nuxt/
+**/.output/
+**/.vercel/
+**/.netlify/
+
+# Vite
+**/.vite/
+**/node_modules/.vite/
+**/node_modules/.vite-temp/
+
+# React / bundler caches
+**/.cache/
+**/.parcel-cache/
+**/.turbo/
+**/.rpt2_cache/
+**/.rts2_cache_*/
+**/.eslintcache
+**/.stylelintcache
+
+# Webpack
+**/.webpack/
+**/.grunt/
+**/.sass-cache/
+
+# Storybook
+**/storybook-static/
+
+# Parcel
+**/.parcel-cache/
+
+
+# ============================================================
+# 10. ENVIRONMENT VARIABLES
+# ============================================================
+
+# All environment files
+**/.env
+**/.env.*
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# Keep example environment files
+!**/.env.example
+!**/.env.sample
+!**/.env.template
+
+# IMPORTANT:
+# VITE_* variables are included in frontend bundles.
+# Never store API secrets in VITE_* variables.
+
+
+# ============================================================
+# 11. NPM / YARN / PNPM
+# ============================================================
+
+# NPM
+npm-debug.log*
+.npm/
+.npmrc.local
+
+# Yarn
+yarn-debug.log*
+yarn-error.log*
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# PNPM
+pnpm-debug.log*
+.pnpm-store/
+
+# Node
+node_modules/
+node-debug.log*
+.node_repl_history
+*.tgz
+
+# Keep lock files:
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+
+# ============================================================
+# 12. TYPESCRIPT / JAVASCRIPT
+# ============================================================
+
+# TypeScript incremental builds
+*.tsbuildinfo
+
+# TypeScript cache
+.tsbuildinfo
+**/.tscache/
+
+# Babel
+**/.babel.json
+**/.babel.*.json
+
+# Jest
+jest-cache/
+**/.jest/
+
+# Vitest
+**/.vitest/
+
+# Coverage
+**/coverage/
+**/.nyc_output/
+**/test-results/
+
+# Playwright
+**/playwright-report/
+**/blob-report/
+**/test-results/
+**/playwright/.cache/
+
+
+# ============================================================
+# 13. DOCKER / DOCKER COMPOSE
+# ============================================================
+
+# Local Docker overrides
+**/docker-compose.override.yml
+**/docker-compose.local.yml
+**/compose.override.yml
+**/compose.local.yml
+
+# Docker environment
+**/.env.docker
+**/.env.docker.local
+
+# Local Docker data
+**/docker-data/
+**/.docker-data/
+**/docker-volumes/
+
+# Database volume directories
+**/sqlserver-data/
+**/postgres-data/
+**/mysql-data/
+**/redis-data/
+**/mongodb-data/
+
+# Docker temporary files
+*.pid
+*.seed
+
+# Keep:
+# Dockerfile
+# .dockerignore
+# docker-compose.yml
+# compose.yml
+
+
+# ============================================================
+# 14. SQL SERVER / POSTGRESQL / REDIS
+# ============================================================
+
+# SQL Server
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.trn
+
+# PostgreSQL
+*.dump
+*.backup
+*.sql.gz
+
+# Redis persistence
+dump.rdb
+appendonly.aof
+appendonlydir/
+
+# Local database dumps
+**/database-dumps/
+**/db-backups/
+**/backups/
+
+# IMPORTANT:
+# Keep database migration scripts and seed SQL
+# if they are part of the project source.
+
+
+# ============================================================
+# 15. LOGS / DIAGNOSTICS
+# ============================================================
+
+# Application logs
+**/logs/
+**/Logs/
+**/log/
+
+*.log
+*.log.*
+*.trace
+
+# Serilog / NLog
+**/serilog/
+**/nlog/
+
+# Crash dumps
+*.dmp
+*.mdmp
+*.hprof
+core
+core.*
+
+# Diagnostic files
+*.etl
+*.etw
+*.nettrace
+*.netperf
+*.speedscope.json
+
+
+# ============================================================
+# 16. TESTING / CODE COVERAGE
+# ============================================================
+
+# .NET tests
+**/TestResults/
+**/test-results/
+*.trx
+*.coverage
+*.coveragexml
+
+# Coverlet
+coverage.json
+coverage.info
+coverage.cobertura.xml
+coverage.opencover.xml
+
+# ReportGenerator
+**/CoverageReport/
+**/coverage-report/
+
+# Frontend testing
+**/coverage/
+**/.nyc_output/
+**/jest-cache/
+**/playwright-report/
+
+# Snapshot temporary files
+*.snap.new
+
+
+# ============================================================
+# 17. USER UPLOADS / TEMPORARY STORAGE
+# ============================================================
+
+# Local uploaded files
+**/uploads/
+**/Uploads/
+**/user-uploads/
+**/private-uploads/
+
+# Temporary storage
+**/temp/
+**/Temp/
+**/tmp/
+**/Tmp/
+
+# Generated files
+**/generated-files/
+**/generated-reports/
+**/exports/
+
+# IMPORTANT:
+# Do not ignore React public/ or ASP.NET wwwroot/
+# entirely. They may contain source assets.
+
+
+# ============================================================
+# 18. LOCAL STORAGE / CACHE
+# ============================================================
+
+**/.cache/
+**/cache/
+**/Cache/
+**/.temp/
+**/.tmp/
+
+# Application local state
+**/.local/
+**/.runtime/
+
+# Runtime session files
+*.session
+*.session.lock
+
+
+# ============================================================
+# 19. OPERATING SYSTEM FILES
+# ============================================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.TemporaryItems
+
+# Linux
+*~
+.nfs*
+.directory
+.Trash-*
+.fuse_hidden*
+
+
+# ============================================================
+# 20. EDITOR / TEMPORARY FILES
+# ============================================================
+
+*.swp
+*.swo
+*.bak
+*.old
+*.orig
+*.rej
+*.tmp
+*.temp
+
+# Vim
+*.un~
+Session.vim
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Backup directories
+**/.backup/
+**/.backups/
+
+
+# ============================================================
+# 21. PUBLISH / DEPLOYMENT
+# ============================================================
+
+# Visual Studio publish profiles containing credentials
+**/Properties/PublishProfiles/*.pubxml
+**/Properties/PublishProfiles/*.pubxml.user
+*.publishsettings
+
+# Publish outputs
+**/publish/
+**/Publish/
+**/deploy-output/
+**/deployment-output/
+
+# IIS local files
+*.iis
+applicationhost.config
+
+# Azure deployment local files
+.azure/
+.azuredeploy/
+.publish/
+
+
+# ============================================================
+# 22. OPTIONAL GENERATED API CLIENTS
+# ============================================================
+
+# Uncomment only if API clients are generated automatically
+# and are NOT maintained as source code.
+
+# **/src/api/generated/
+# **/src/generated/
+# **/generated-client/
+
+
+# ============================================================
+# 23. IMPORTANT FILES TO KEEP IN GIT
+# ============================================================
+
+# ASP.NET Core:
+# *.cs
+# *.csproj
+# *.sln
+# *.slnx
+# appsettings.json
+# appsettings.Production.json (without secrets)
+# Directory.Build.props
+# Directory.Packages.props
+# global.json
+# Migrations/
+
+# React:
+# src/
+# public/
+# package.json
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+# vite.config.ts
+# tsconfig.json
+# eslint.config.js
+
+# Docker:
+# Dockerfile
+# .dockerignore
+# docker-compose.yml
+# compose.yml
+
+# Environment:
+# .env.example
+
+# Git:
+# .gitignore
+# .gitattributes
+
+# Documentation:
+# README.md
+# LICENSE
