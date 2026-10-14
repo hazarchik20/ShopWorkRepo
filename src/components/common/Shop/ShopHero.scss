@@ -1,0 +1,60 @@
+.shop-hero {
+  color: white;
+}
+
+.shop-character {
+  position: absolute;
+  top: calc(202px - var(--header-height));
+  left: -15px;
+  width: 594px;
+  height: 439.45px;
+  object-fit: contain;
+}
+
+.shop-hero-text {
+  position: absolute;
+  top: calc(289px - var(--header-height));
+  left: 50%;
+  width: 873px;
+  max-width: calc(100% - 48px);
+  text-align: center;
+  transform: translateX(-50%);
+}
+
+.shop-hero-text h1 {
+  margin: 0 0 24px;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.shop-hero-text p {
+  margin: 0;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .shop-character {
+    top: calc(161.6px - var(--header-height));
+    left: -12px;
+    width: 475.2px;
+    height: 351.56px;
+  }
+
+  .shop-hero-text {
+    top: calc(231.2px - var(--header-height));
+    width: 698.4px;
+  }
+
+  .shop-hero-text h1 {
+    margin-bottom: 19.2px;
+    font-size: 38.4px;
+  }
+
+  .shop-hero-text p {
+    font-size: 19.2px;
+  }
+}
