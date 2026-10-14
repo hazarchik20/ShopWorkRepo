@@ -1,11 +1,13 @@
-import searchIcon from '@assets/search.svg'
-import catalogIcon from '@assets/catalog.svg'
-import markerIcon from '@assets/marker-02.svg'
-import './SearchBar.scss'
 
-function SearchBar() {
+import searchIcon from '@assets/search.svg';
+import catalogIcon from '@assets/catalog.svg';
+import markerIcon from '@assets/marker-02.svg';
+
+import './SearchBar.scss';
+
+function SearchBar({ variant = 'default' }) {
     return (
-        <div className="search-bar">
+        <div className={`search-bar search-bar--${variant}`}>
             <button className="location-button" type="button">
                 <img src={markerIcon} alt="" />
                 <span>Уся Україна</span>
@@ -34,7 +36,8 @@ function SearchBar() {
                 Додати оголошення
             </button>
         </div>
-    )
+    );
 }
 
-export default SearchBar
+export default SearchBar;
+
