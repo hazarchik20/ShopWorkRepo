@@ -99,7 +99,6 @@ const LoginMainPage = () => {
                         {step === 1 ?
                             (
                                 <>
-
                                     <p className="auth-subtitle">
                                         Увійти / Зареєструватися через
                                     </p>

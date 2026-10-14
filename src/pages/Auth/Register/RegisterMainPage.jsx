@@ -6,7 +6,7 @@ import { ArrowLeft, Eye, EyeOff } from "lucide-react";
 import "../Auth.scss";
 
 import background from "@assets/login-register-background.png";
-import logo from "@assets/logo.png";
+import logo from "@assets/logo-white.png";
 
 const Register = () => {
     const [form, setForm] = useState({
