@@ -10,8 +10,8 @@ const App = () => {
 
     const isAuthPage = ["/login", "/register"].includes(pathname);
     return (
-         <div className="app">
-            {!isAuthPage && <Header />}
+        <div className="app">
+            {!isAuthPage && <Header variant="menu" activePage="market" />}
 
             <main>
                 <Router />
@@ -19,7 +19,7 @@ const App = () => {
 
             {/* {!isAuthPage && <Footer />} */}
 
-            <Toaster 
+            <Toaster
                 position="top-center"
                 toastOptions={{
                     duration: 2000,

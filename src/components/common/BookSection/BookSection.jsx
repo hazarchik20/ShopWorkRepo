@@ -1,8 +1,17 @@
+import bookPhoto from '@assets/book-photo.png'
+import bookPlaceholder from '@assets/book-placeholder.png'
 import arrowIcon from '@assets/arrow-left-contained-01.svg'
 import BookCard from '@components/common/BookCard/BookCard'
 import './BookSection.scss'
 
-function BookSection({ title }) {
+const defaultImages = [
+  bookPhoto,
+  bookPlaceholder,
+  bookPhoto,
+  bookPhoto,
+]
+
+function BookSection({ title, images = defaultImages }) {
   return (
     <section className="book-section">
       <div className="book-section-header">
@@ -23,10 +32,14 @@ function BookSection({ title }) {
         </div>
       </div>
       <div className="book-section-grid">
-        <BookCard title="Книга «Тією Горою є Ви»" price={240} />
-        <BookCard title="Книга «Тією Горою є Ви»" price={300} />
-        <BookCard title="Книга «Тією Горою є Ви»" price={240} />
-        <BookCard title="Книга «Тією Горою є Ви»" price={240} />
+        {images.map((image, index) => (
+          <BookCard
+            key={index}
+            title="Книга «Тією Горою є Ви»"
+            price={240}
+            image={image}
+          />
+        ))}
       </div>
     </section>
   )

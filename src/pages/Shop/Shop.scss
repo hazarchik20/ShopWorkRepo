@@ -32,3 +32,23 @@
     top: calc(435.2px - var(--header-height));
   }
 }
+
+.shop-content > .support-banner {
+  margin-top: 120px;
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .shop-content > .support-banner {
+    margin-top: 96px;
+  }
+}
+
+.shop-content > .support-banner + .book-section {
+  margin-top: 120px;
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .shop-content > .support-banner + .book-section {
+    margin-top: 96px;
+  }
+}

@@ -1,14 +1,13 @@
-import bookPhoto from '@assets/book-photo.png'
 import bookHeart from '@assets/book-heart.svg'
 import './BookCard.scss'
 
-function BookCard({ title, price }) {
+function BookCard({ title, price, image }) {
     return (
         <article className="book-card">
             <img
                 className="book-card-image"
-                src={bookPhoto}
-                alt="Книга «Тією горою є ви»"
+                src={image}
+                alt={title}
             />
 
             <h3 className="book-card-title">
