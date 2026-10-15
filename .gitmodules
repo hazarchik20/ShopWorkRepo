@@ -1,0 +1,4 @@
+[submodule "WorkFront"]
+	path = WorkFront
+	url = https://github.com/libernalii/Frontend-Readvia.git
+	branch = main
