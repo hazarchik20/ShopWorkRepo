@@ -1,0 +1,517 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E72B22-A3B2-4806-A5E6-1608C80B2989}|Domain\\Domain.csproj|c:\\users\\1\\source\\repos\\boilo\\tempproj\\bookshopproj\\domain\\entities\\user\\usercontactsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E72B22-A3B2-4806-A5E6-1608C80B2989}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user\\usercontactsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E72B22-A3B2-4806-A5E6-1608C80B2989}|Domain\\Domain.csproj|c:\\users\\1\\source\\repos\\boilo\\tempproj\\bookshopproj\\domain\\entities\\user\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E72B22-A3B2-4806-A5E6-1608C80B2989}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B59BE1-C8CF-46C6-9EE8-8F5D273E3FF4}|Infrastructure\\Infrastructure.csproj|c:\\users\\1\\source\\repos\\boilo\\tempproj\\bookshopproj\\infrastructure\\repositories\\users\\usersecurityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69B59BE1-C8CF-46C6-9EE8-8F5D273E3FF4}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\users\\usersecurityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B59BE1-C8CF-46C6-9EE8-8F5D273E3FF4}|Infrastructure\\Infrastructure.csproj|c:\\users\\1\\source\\repos\\boilo\\tempproj\\bookshopproj\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69B59BE1-C8CF-46C6-9EE8-8F5D273E3FF4}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B59BE1-C8CF-46C6-9EE8-8F5D273E3FF4}|Infrastructure\\Infrastructure.csproj|c:\\users\\1\\source\\repos\\boilo\\tempproj\\bookshopproj\\infrastructure\\repositories\\users\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69B59BE1-C8CF-46C6-9EE8-8F5D273E3FF4}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\users\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E72B22-A3B2-4806-A5E6-1608C80B2989}|Domain\\Domain.csproj|c:\\users\\1\\source\\repos\\boilo\\tempproj\\bookshopproj\\domain\\entities\\user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E72B22-A3B2-4806-A5E6-1608C80B2989}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E72B22-A3B2-4806-A5E6-1608C80B2989}|Domain\\Domain.csproj|c:\\users\\1\\source\\repos\\boilo\\tempproj\\bookshopproj\\domain\\entities\\user\\usersecurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E72B22-A3B2-4806-A5E6-1608C80B2989}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user\\usersecurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E72B22-A3B2-4806-A5E6-1608C80B2989}|Domain\\Domain.csproj|c:\\users\\1\\source\\repos\\boilo\\tempproj\\bookshopproj\\domain\\entities\\advert\\advertimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E72B22-A3B2-4806-A5E6-1608C80B2989}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\advert\\advertimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B59BE1-C8CF-46C6-9EE8-8F5D273E3FF4}|Infrastructure\\Infrastructure.csproj|c:\\users\\1\\source\\repos\\boilo\\tempproj\\bookshopproj\\infrastructure\\configurations\\advert\\advertimageconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69B59BE1-C8CF-46C6-9EE8-8F5D273E3FF4}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\configurations\\advert\\advertimageconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B59BE1-C8CF-46C6-9EE8-8F5D273E3FF4}|Infrastructure\\Infrastructure.csproj|c:\\users\\1\\source\\repos\\boilo\\tempproj\\bookshopproj\\infrastructure\\configurations\\user\\usersecurityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69B59BE1-C8CF-46C6-9EE8-8F5D273E3FF4}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\configurations\\user\\usersecurityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B59BE1-C8CF-46C6-9EE8-8F5D273E3FF4}|Infrastructure\\Infrastructure.csproj|c:\\users\\1\\source\\repos\\boilo\\tempproj\\bookshopproj\\infrastructure\\configurations\\user\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69B59BE1-C8CF-46C6-9EE8-8F5D273E3FF4}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\configurations\\user\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B59BE1-C8CF-46C6-9EE8-8F5D273E3FF4}|Infrastructure\\Infrastructure.csproj|c:\\users\\1\\source\\repos\\boilo\\tempproj\\bookshopproj\\infrastructure\\repositories\\advart\\advartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69B59BE1-C8CF-46C6-9EE8-8F5D273E3FF4}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\advart\\advartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B59BE1-C8CF-46C6-9EE8-8F5D273E3FF4}|Infrastructure\\Infrastructure.csproj|c:\\users\\1\\source\\repos\\boilo\\tempproj\\bookshopproj\\infrastructure\\repositories\\advart\\iuserprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69B59BE1-C8CF-46C6-9EE8-8F5D273E3FF4}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\advart\\iuserprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B59BE1-C8CF-46C6-9EE8-8F5D273E3FF4}|Infrastructure\\Infrastructure.csproj|c:\\users\\1\\source\\repos\\boilo\\tempproj\\bookshopproj\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69B59BE1-C8CF-46C6-9EE8-8F5D273E3FF4}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B59BE1-C8CF-46C6-9EE8-8F5D273E3FF4}|Infrastructure\\Infrastructure.csproj|c:\\users\\1\\source\\repos\\boilo\\tempproj\\bookshopproj\\infrastructure\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69B59BE1-C8CF-46C6-9EE8-8F5D273E3FF4}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E72B22-A3B2-4806-A5E6-1608C80B2989}|Domain\\Domain.csproj|c:\\users\\1\\source\\repos\\boilo\\tempproj\\bookshopproj\\domain\\valueobjects\\user\\usernamegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E72B22-A3B2-4806-A5E6-1608C80B2989}|Domain\\Domain.csproj|solutionrelative:domain\\valueobjects\\user\\usernamegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E72B22-A3B2-4806-A5E6-1608C80B2989}|Domain\\Domain.csproj|c:\\users\\1\\source\\repos\\boilo\\tempproj\\bookshopproj\\domain\\valueobjects\\advart\\advartstateofuse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E72B22-A3B2-4806-A5E6-1608C80B2989}|Domain\\Domain.csproj|solutionrelative:domain\\valueobjects\\advart\\advartstateofuse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E72B22-A3B2-4806-A5E6-1608C80B2989}|Domain\\Domain.csproj|c:\\users\\1\\source\\repos\\boilo\\tempproj\\bookshopproj\\domain\\valueobjects\\advart\\advartsellertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E72B22-A3B2-4806-A5E6-1608C80B2989}|Domain\\Domain.csproj|solutionrelative:domain\\valueobjects\\advart\\advartsellertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E72B22-A3B2-4806-A5E6-1608C80B2989}|Domain\\Domain.csproj|c:\\users\\1\\source\\repos\\boilo\\tempproj\\bookshopproj\\domain\\valueobjects\\advart\\advartmethodofagreement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E72B22-A3B2-4806-A5E6-1608C80B2989}|Domain\\Domain.csproj|solutionrelative:domain\\valueobjects\\advart\\advartmethodofagreement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E72B22-A3B2-4806-A5E6-1608C80B2989}|Domain\\Domain.csproj|c:\\users\\1\\source\\repos\\boilo\\tempproj\\bookshopproj\\domain\\valueobjects\\advart\\advartgenres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E72B22-A3B2-4806-A5E6-1608C80B2989}|Domain\\Domain.csproj|solutionrelative:domain\\valueobjects\\advart\\advartgenres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E72B22-A3B2-4806-A5E6-1608C80B2989}|Domain\\Domain.csproj|c:\\users\\1\\source\\repos\\boilo\\tempproj\\bookshopproj\\domain\\entities\\advert\\advertdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E72B22-A3B2-4806-A5E6-1608C80B2989}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\advert\\advertdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E72B22-A3B2-4806-A5E6-1608C80B2989}|Domain\\Domain.csproj|c:\\users\\1\\source\\repos\\boilo\\tempproj\\bookshopproj\\domain\\entities\\advert\\advert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E72B22-A3B2-4806-A5E6-1608C80B2989}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\advert\\advert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B3C77DA-F8DD-4985-B22C-3256D776DD00}|Application\\Application.csproj|c:\\users\\1\\source\\repos\\boilo\\tempproj\\bookshopproj\\application\\abstractions\\authentication\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B3C77DA-F8DD-4985-B22C-3256D776DD00}|Application\\Application.csproj|solutionrelative:application\\abstractions\\authentication\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B3C77DA-F8DD-4985-B22C-3256D776DD00}|Application\\Application.csproj|c:\\users\\1\\source\\repos\\boilo\\tempproj\\bookshopproj\\application\\abstractions\\authentication\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B3C77DA-F8DD-4985-B22C-3256D776DD00}|Application\\Application.csproj|solutionrelative:application\\abstractions\\authentication\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B3C77DA-F8DD-4985-B22C-3256D776DD00}|Application\\Application.csproj|c:\\users\\1\\source\\repos\\boilo\\tempproj\\bookshopproj\\application\\abstractions\\authentication\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B3C77DA-F8DD-4985-B22C-3256D776DD00}|Application\\Application.csproj|solutionrelative:application\\abstractions\\authentication\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B3C77DA-F8DD-4985-B22C-3256D776DD00}|Application\\Application.csproj|c:\\users\\1\\source\\repos\\boilo\\tempproj\\bookshopproj\\application\\abstractions\\persistence\\advart\\iuserprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B3C77DA-F8DD-4985-B22C-3256D776DD00}|Application\\Application.csproj|solutionrelative:application\\abstractions\\persistence\\advart\\iuserprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B3C77DA-F8DD-4985-B22C-3256D776DD00}|Application\\Application.csproj|c:\\users\\1\\source\\repos\\boilo\\tempproj\\bookshopproj\\application\\abstractions\\persistence\\user\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B3C77DA-F8DD-4985-B22C-3256D776DD00}|Application\\Application.csproj|solutionrelative:application\\abstractions\\persistence\\user\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B3C77DA-F8DD-4985-B22C-3256D776DD00}|Application\\Application.csproj|c:\\users\\1\\source\\repos\\boilo\\tempproj\\bookshopproj\\application\\abstractions\\persistence\\user\\iusersecurityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B3C77DA-F8DD-4985-B22C-3256D776DD00}|Application\\Application.csproj|solutionrelative:application\\abstractions\\persistence\\user\\iusersecurityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B3C77DA-F8DD-4985-B22C-3256D776DD00}|Application\\Application.csproj|c:\\users\\1\\source\\repos\\boilo\\tempproj\\bookshopproj\\application\\abstractions\\persistence\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B3C77DA-F8DD-4985-B22C-3256D776DD00}|Application\\Application.csproj|solutionrelative:application\\abstractions\\persistence\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Infrastructure\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Infrastructure\\AppDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T18:58:01.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserSecurityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Infrastructure\\Repositories\\Users\\UserSecurityRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\Users\\UserSecurityRepository.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Infrastructure\\Repositories\\Users\\UserSecurityRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\Users\\UserSecurityRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T18:57:59.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserProfileDto.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Domain\\Entities\\User\\UserProfileDto.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\User\\UserProfileDto.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Domain\\Entities\\User\\UserProfileDto.cs",
+              "RelativeToolTip": "Domain\\Entities\\User\\UserProfileDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T18:50:13.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserContactsDto.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Domain\\Entities\\User\\UserContactsDto.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\User\\UserContactsDto.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Domain\\Entities\\User\\UserContactsDto.cs",
+              "RelativeToolTip": "Domain\\Entities\\User\\UserContactsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T18:50:12.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Infrastructure\\Repositories\\Users\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\Users\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Infrastructure\\Repositories\\Users\\UserRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\Users\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T18:57:58.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserSecurity.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Domain\\Entities\\User\\UserSecurity.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\User\\UserSecurity.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Domain\\Entities\\User\\UserSecurity.cs",
+              "RelativeToolTip": "Domain\\Entities\\User\\UserSecurity.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T18:50:13.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdvertImage.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Domain\\Entities\\Advert\\AdvertImage.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Advert\\AdvertImage.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Domain\\Entities\\Advert\\AdvertImage.cs",
+              "RelativeToolTip": "Domain\\Entities\\Advert\\AdvertImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T18:50:11.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdvertImageConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Infrastructure\\Configurations\\Advert\\AdvertImageConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Configurations\\Advert\\AdvertImageConfiguration.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Infrastructure\\Configurations\\Advert\\AdvertImageConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Configurations\\Advert\\AdvertImageConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T18:48:28.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Domain\\Entities\\User\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\User\\User.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Domain\\Entities\\User\\User.cs",
+              "RelativeToolTip": "Domain\\Entities\\User\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T18:50:12.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserSecurityConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Infrastructure\\Configurations\\User\\UserSecurityConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Configurations\\User\\UserSecurityConfiguration.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Infrastructure\\Configurations\\User\\UserSecurityConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Configurations\\User\\UserSecurityConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T18:48:30.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Infrastructure\\Configurations\\User\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Configurations\\User\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Infrastructure\\Configurations\\User\\UserConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Configurations\\User\\UserConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T18:48:29.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdvartRepository.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Infrastructure\\Repositories\\Advart\\AdvartRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\Advart\\AdvartRepository.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Infrastructure\\Repositories\\Advart\\AdvartRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\Advart\\AdvartRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwAsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T18:45:52.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IUserProfileRepository.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Infrastructure\\Repositories\\Advart\\IUserProfileRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\Advart\\IUserProfileRepository.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Infrastructure\\Repositories\\Advart\\IUserProfileRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\Advart\\IUserProfileRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T18:56:25.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T18:58:01.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Infrastructure\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Infrastructure\\UnitOfWork.cs",
+              "RelativeToolTip": "Infrastructure\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T18:58:02.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserNameGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Domain\\ValueObjects\\User\\UserNameGenerator.cs",
+              "RelativeDocumentMoniker": "Domain\\ValueObjects\\User\\UserNameGenerator.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Domain\\ValueObjects\\User\\UserNameGenerator.cs",
+              "RelativeToolTip": "Domain\\ValueObjects\\User\\UserNameGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T18:57:53.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdvartSellerType.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Domain\\ValueObjects\\Advart\\AdvartSellerType.cs",
+              "RelativeDocumentMoniker": "Domain\\ValueObjects\\Advart\\AdvartSellerType.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Domain\\ValueObjects\\Advart\\AdvartSellerType.cs",
+              "RelativeToolTip": "Domain\\ValueObjects\\Advart\\AdvartSellerType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T18:53:41.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AdvartMethodOfAgreement.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Domain\\ValueObjects\\Advart\\AdvartMethodOfAgreement.cs",
+              "RelativeDocumentMoniker": "Domain\\ValueObjects\\Advart\\AdvartMethodOfAgreement.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Domain\\ValueObjects\\Advart\\AdvartMethodOfAgreement.cs",
+              "RelativeToolTip": "Domain\\ValueObjects\\Advart\\AdvartMethodOfAgreement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T18:53:42.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AdvartGenres.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Domain\\ValueObjects\\Advart\\AdvartGenres.cs",
+              "RelativeDocumentMoniker": "Domain\\ValueObjects\\Advart\\AdvartGenres.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Domain\\ValueObjects\\Advart\\AdvartGenres.cs",
+              "RelativeToolTip": "Domain\\ValueObjects\\Advart\\AdvartGenres.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T18:53:40.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AdvertDto.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Domain\\Entities\\Advert\\AdvertDto.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Advert\\AdvertDto.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Domain\\Entities\\Advert\\AdvertDto.cs",
+              "RelativeToolTip": "Domain\\Entities\\Advert\\AdvertDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T18:50:09.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Advert.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Domain\\Entities\\Advert\\Advert.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Advert\\Advert.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Domain\\Entities\\Advert\\Advert.cs",
+              "RelativeToolTip": "Domain\\Entities\\Advert\\Advert.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T18:50:11.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdvartStateOfUse.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Domain\\ValueObjects\\Advart\\AdvartStateOfUse.cs",
+              "RelativeDocumentMoniker": "Domain\\ValueObjects\\Advart\\AdvartStateOfUse.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Domain\\ValueObjects\\Advart\\AdvartStateOfUse.cs",
+              "RelativeToolTip": "Domain\\ValueObjects\\Advart\\AdvartStateOfUse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T18:53:41.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IPasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Application\\Abstractions\\Authentication\\IPasswordHasher.cs",
+              "RelativeDocumentMoniker": "Application\\Abstractions\\Authentication\\IPasswordHasher.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Application\\Abstractions\\Authentication\\IPasswordHasher.cs",
+              "RelativeToolTip": "Application\\Abstractions\\Authentication\\IPasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T18:46:45.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Application\\Abstractions\\Authentication\\ITokenService.cs",
+              "RelativeDocumentMoniker": "Application\\Abstractions\\Authentication\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Application\\Abstractions\\Authentication\\ITokenService.cs",
+              "RelativeToolTip": "Application\\Abstractions\\Authentication\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T18:46:46.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "JwtOptions.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Application\\Abstractions\\Authentication\\JwtOptions.cs",
+              "RelativeDocumentMoniker": "Application\\Abstractions\\Authentication\\JwtOptions.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Application\\Abstractions\\Authentication\\JwtOptions.cs",
+              "RelativeToolTip": "Application\\Abstractions\\Authentication\\JwtOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T18:46:46.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IUserProfileRepository.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Application\\Abstractions\\Persistence\\Advart\\IUserProfileRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Abstractions\\Persistence\\Advart\\IUserProfileRepository.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Application\\Abstractions\\Persistence\\Advart\\IUserProfileRepository.cs",
+              "RelativeToolTip": "Application\\Abstractions\\Persistence\\Advart\\IUserProfileRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T18:56:35.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Application\\Abstractions\\Persistence\\User\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Abstractions\\Persistence\\User\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Application\\Abstractions\\Persistence\\User\\IUserRepository.cs",
+              "RelativeToolTip": "Application\\Abstractions\\Persistence\\User\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T18:46:37.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IUserSecurityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Application\\Abstractions\\Persistence\\User\\IUserSecurityRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Abstractions\\Persistence\\User\\IUserSecurityRepository.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Application\\Abstractions\\Persistence\\User\\IUserSecurityRepository.cs",
+              "RelativeToolTip": "Application\\Abstractions\\Persistence\\User\\IUserSecurityRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T18:46:36.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Application\\Abstractions\\Persistence\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Application\\Abstractions\\Persistence\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\Boilo\\TempProj\\BookShopProj\\Application\\Abstractions\\Persistence\\IUnitOfWork.cs",
+              "RelativeToolTip": "Application\\Abstractions\\Persistence\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T18:46:40.035Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
