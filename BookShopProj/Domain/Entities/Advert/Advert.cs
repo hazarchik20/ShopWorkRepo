@@ -1,4 +1,5 @@
-﻿using Domain.ValueObjects.Advart;
+﻿using Domain.Entities.User;
+using Domain.ValueObjects.Advart;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities.Advert
 {
+
     public sealed class Advert
     {
         public Guid Id { get; set; }
@@ -14,18 +16,25 @@ namespace Domain.Entities.Advert
 
         public string Title { get; set; } = null!;
         public string Description { get; set; } = null!;
+
+        public string? Town { get; set; }
+
         public decimal Price { get; set; }
-        public bool isPriceNegotiable { get; set; }
+        public bool IsPriceNegotiable { get; set; }
 
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
+        public DateTime? DeletedAt { get; set; }
 
-        public AdvartStateOfUse StateOfUse { get; set; }
-        public AdvartMethodOfAgreement MethodOfAgreement { get; set; }
-        public AdvartSellerType SellerType { get; set; }
+        public AdvertStateOfUse StateOfUse { get; set; }
+        public AdvertDealType AdvertDealType { get; set; }
+        public AdvertSellerType SellerType { get; set; }
+        public AdvertStatus Status { get; set; } = AdvertStatus.Review;
 
-        public List<AdvartGenres> Genres { get; set; } = new List<AdvartGenres>();
-        public List<AdvertImage> Images { get; set; } = new List<AdvertImage>();    
+        public List<AdvertGenres> Genres { get; set; } = new();
+        public List<string> ImagesLinks { get; set; } = new();
 
+        public User.User User { get; set; } = null!;
     }
+
 }

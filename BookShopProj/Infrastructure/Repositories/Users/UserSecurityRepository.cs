@@ -14,7 +14,6 @@ namespace Infrastructure.Repositories.Users
         public UserSecurityRepository(AppDbContext dbContext) : base(dbContext)
         {
         }
-
         public async Task<UserSecurity?> GetByUserIdAsync(Guid id, CancellationToken cancellationToken = default)
         {
             return await _dbSet.FirstOrDefaultAsync(us => us.UserId == id, cancellationToken);

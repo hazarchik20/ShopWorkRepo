@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Configurations
 {
+
     public sealed class UserSecurityConfiguration : IEntityTypeConfiguration<UserSecurity>
     {
         public void Configure(EntityTypeBuilder<UserSecurity> builder)
@@ -27,7 +28,7 @@ namespace Infrastructure.Configurations
                 .IsRequired()
                 .HasMaxLength(45);
 
-            builder.Property(x => x.RegistractionUserAgent)
+            builder.Property(x => x.RegistrationUserAgent)
                 .IsRequired()
                 .HasMaxLength(1000);
 
@@ -36,7 +37,11 @@ namespace Infrastructure.Configurations
             builder.HasIndex(x => x.UserId)
                 .IsUnique();
 
-            builder.HasIndex(x => x.RegistrationIp);
+            builder.HasOne(x => x.User)
+                .WithOne(x => x.Security)
+                .HasForeignKey<UserSecurity>(x => x.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
+
 }

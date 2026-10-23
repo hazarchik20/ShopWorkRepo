@@ -9,19 +9,31 @@ using Application.Abstractions.Persistence.User;
 
 namespace Infrastructure.Repositories.Users
 {
+
     public sealed class UserRepository : RepositoryBase<User>, IUserRepository
     {
-        public UserRepository(AppDbContext dbContext) : base(dbContext)
+        public UserRepository(AppDbContext dbContext)
+            : base(dbContext)
         {
         }
+
         public async Task<bool> ExistsByEmailAsync(string email, CancellationToken cancellationToken = default)
         {
-            return await _dbSet.AnyAsync(u => u.Email == email, cancellationToken);
+            email = email.Trim().ToLowerInvariant();
+
+            return await _dbSet.AnyAsync(
+                x => x.Email == email,
+                cancellationToken);
         }
 
         public async Task<User?> GetByEmailAsync(string email, CancellationToken cancellationToken = default)
         {
-            return await _dbSet.FirstOrDefaultAsync(u => u.Email == email, cancellationToken);
+            email = email.Trim().ToLowerInvariant();
+
+            return await _dbSet.FirstOrDefaultAsync(
+                x => x.Email == email,
+                cancellationToken);
         }
     }
+
 }

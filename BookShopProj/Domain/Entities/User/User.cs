@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Domain.Entities.Advert;
 namespace Domain.Entities.User
 {
     public sealed class User
@@ -21,5 +21,8 @@ namespace Domain.Entities.User
         public string? Town { get; set; }
 
         public DateTime CreatedAt { get; set; }
+
+        public List<Advert.Advert> Adverts { get; set; } = new List<Advert.Advert>();
+        public UserSecurity? Security { get; set; }
     }
 }

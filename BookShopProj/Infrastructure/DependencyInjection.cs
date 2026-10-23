@@ -1,38 +1,79 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Application.Abstractions.Authentication;
+using Application.Abstractions.Persistence;
+using Application.Abstractions.Persistence.Advart;
+using Application.Abstractions.Persistence.User;
+using Application.Abstractions.Storage;
+using Infrastructure.Repositories.Advart;
+using Infrastructure.Repositories.Users;
+using Infrastructure.Services;
+using Infrastructure.Storage;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Application.Abstractions.Authentication;
-using Application.Abstractions.Persistence;
-using Infrastructure.Repositories.Users;
+using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Infrastructure.Services;
-using Application.Abstractions.Persistence.User;
 
 namespace Infrastructure
 {
     public static class DependencyInjection
     {
-        public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection AddInfrastructure(
+            this IServiceCollection services,
+            IConfiguration configuration)
         {
-            // Register DbContext
+            // Database
             services.AddDbContext<AppDbContext>(options =>
-            {
-                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
-            });
-            services.AddScoped<IUnitOfWork, UnitOfWork>();
-
-            // Services
-            services.AddScoped<ITokenService, TokenService>();
-            services.AddScoped<IPasswordHasher, PasswordHasherService>();
+                options.UseSqlServer(
+                    configuration.GetConnectionString("DefaultConnection")));
 
             // Repositories
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IUserSecurityRepository, UserSecurityRepository>();
-            services.AddScoped<IUserProfileRepository, UserProfileRepository>();
+            services.AddScoped<IAdvertRepository, AdvertRepository>();
+
+            // Unit of Work
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+            // Authentication
+            services.AddScoped<IPasswordHasher, PasswordHasherService>();
+            services.AddScoped<ITokenService, TokenService>();
+
+
+            services.AddOptions<FileStorageOptions>()
+                .Bind(configuration.GetSection(FileStorageOptions.SectionName))
+                .Validate(
+                    options => !string.IsNullOrWhiteSpace(options.UploadPath) &&
+                               !Path.IsPathRooted(options.UploadPath) &&
+                               !options.UploadPath.Contains(".."),
+                    "Invalid upload directory.")
+                .Validate(
+                    options => options.MaxFileSizeBytes > 0 &&
+                               options.MaxFileSizeBytes <= 10 * 1024 * 1024,
+                    "Invalid maximum file size.")
+                .ValidateOnStart();
+
+
+            services.AddScoped<IFileStorageService, LocalFileStorageService>();
+
+            services.AddOptions<JwtOptions>()
+                .Bind(configuration.GetSection(JwtOptions.SectionName))
+                .Validate(
+                    options => !string.IsNullOrWhiteSpace(options.Issuer),
+                    "JWT Issuer is required.")
+                .Validate(
+                    options => !string.IsNullOrWhiteSpace(options.Audience),
+                    "JWT Audience is required.")
+                .Validate(
+                    options => !string.IsNullOrWhiteSpace(options.Secret) && Encoding.UTF8.GetByteCount(options.Secret) >= 32,
+                    "JWT Secret must contain at least 32 UTF-8 bytes.")
+                .Validate(
+                    options => options.ExpirationMinutes > 0,
+                    "JWT expiration must be greater than zero.")
+                .ValidateOnStart();
 
 
             return services;
