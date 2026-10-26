@@ -16,7 +16,8 @@ namespace Domain.Entities.Advert
         string? ImageLink,
         AdvertStatus Status,
         DateTime CreatedAt,
-        string Town
+        AdvertStateOfUse? StateOfUse = null,
+        string? Town = null
     );
 
 }

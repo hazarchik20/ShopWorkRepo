@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -57,9 +57,9 @@ namespace Application.Features.Auth.Commands.Login
             }
 
             // Verify password
-            var isValidPassword = _passwordHasher.Verify(
-                request.Password,
-                user.PasswordHash);
+            // Google-only accounts have no local password.
+            var isValidPassword = !string.IsNullOrEmpty(user.PasswordHash)
+                && _passwordHasher.Verify(request.Password, user.PasswordHash);
 
             if (!isValidPassword)
             {

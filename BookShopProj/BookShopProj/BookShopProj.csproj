@@ -25,4 +25,9 @@
 	  <ProjectReference Include="..\Application\Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\uploads\adverts\" />
+    <Folder Include="wwwroot\uploads\adverts\38c14ff60fa8419e812645638790753e\" />
+  </ItemGroup>
+
 </Project>

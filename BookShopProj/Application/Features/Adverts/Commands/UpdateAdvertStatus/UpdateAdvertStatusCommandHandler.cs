@@ -69,6 +69,8 @@ namespace Application.Features.Adverts.Commands.UpdateAdvertStatus
                 AdvertStatus.Hidden =>
                     request.Status == AdvertStatus.Active,
 
+                AdvertStatus.Review =>
+                    request.Status == AdvertStatus.Active,
                 _ => false
             };
 
@@ -82,6 +84,7 @@ namespace Application.Features.Adverts.Commands.UpdateAdvertStatus
 
             advert.Status = request.Status;
             advert.UpdatedAt = DateTime.UtcNow;
+
 
             await _unitOfWork.SaveChangesAsync(
                 cancellationToken);

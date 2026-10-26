@@ -1,4 +1,5 @@
 ﻿using Domain.Entities.Advert;
+using Domain.ValueObjects.Advart;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,7 +33,10 @@ namespace Application.Abstractions.Persistence.Advart
         Task<int> CountByUserIdAsync(
             Guid userId,
             CancellationToken cancellationToken = default);
-
+        Task<IEnumerable<Advert>> GetLatestCatalogAsync(
+          AdvertStateOfUse? stateOfUse,
+          int take,
+          CancellationToken cancellationToken = default);
     }
 
 }

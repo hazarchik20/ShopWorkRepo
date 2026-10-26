@@ -89,7 +89,7 @@ namespace Infrastructure.Configurations.Advert
             builder.Property(x => x.Status)
                 .HasConversion<string>()
                 .HasMaxLength(30)
-                .HasDefaultValue(AdvertStatus.Review)
+                .HasDefaultValue(AdvertStatus.Active)
                 .IsRequired();
 
             // Genres - JSON

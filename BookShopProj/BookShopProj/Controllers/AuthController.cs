@@ -1,4 +1,5 @@
-﻿using Application.Features.Auth.Commands.Login;
+using Application.Features.Auth.Commands.Google;
+using Application.Features.Auth.Commands.Login;
 using Application.Features.Auth.Commands.Register;
 using BookShopProj.Contracts.Auth;
 using BookShopProj.Extensions;
@@ -65,6 +66,20 @@ namespace BookShopProj.Controllers
                 command,
                 cancellationToken);
 
+            return result.ToActionResult();
+        }
+        [HttpPost("google")]
+        [AllowAnonymous]
+        public async Task<IActionResult> Google(
+            [FromBody] GoogleLoginRequest request,
+            CancellationToken cancellationToken)
+        {
+            var ip = HttpContext.Connection.RemoteIpAddress?.ToString() ?? "Unknown";
+            var userAgent = Request.Headers.UserAgent.ToString();
+            if (string.IsNullOrWhiteSpace(userAgent)) userAgent = "Unknown";
+
+            var command = new GoogleLoginCommand(request.IdToken, ip, userAgent);
+            var result = await _sender.Send(command, cancellationToken);
             return result.ToActionResult();
         }
     }

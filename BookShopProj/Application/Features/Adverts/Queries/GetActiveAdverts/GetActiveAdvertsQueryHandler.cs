@@ -11,8 +11,6 @@ using MediatR;
 
 namespace Application.Features.Adverts.Queries.GetActiveAdverts
 {
-
-
     public sealed class GetActiveAdvertsQueryHandler
         : IRequestHandler<
             GetActiveAdvertsQuery,
@@ -26,10 +24,12 @@ namespace Application.Features.Adverts.Queries.GetActiveAdverts
             _advertRepository = advertRepository;
         }
 
-        public async Task<Result<PagedResult<AdvertShortDto>>> Handle(
-            GetActiveAdvertsQuery request,
-            CancellationToken cancellationToken)
+        public async Task<Result<PagedResult<AdvertShortDto>>> Handle(GetActiveAdvertsQuery request, CancellationToken cancellationToken)
         {
+            var page = Math.Max(1, request.Page);
+            var pageSize = Math.Clamp(request.PageSize, 1, 48);
+            var sort = request.Sort is "newest" or "priceAsc" or "priceDesc"
+                ? request.Sort : "newest";
             var adverts = await _advertRepository.GetActiveAsync(
                 request.Page,
                 request.PageSize,
@@ -46,6 +46,7 @@ namespace Application.Features.Adverts.Queries.GetActiveAdverts
                 x.ImagesLinks.FirstOrDefault(),
                 x.Status,
                 x.CreatedAt,
+                x.StateOfUse,
                 x.Town
             )).ToList();
 

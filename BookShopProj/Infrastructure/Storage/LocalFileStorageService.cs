@@ -57,6 +57,15 @@ namespace Infrastructure.Storage
             Guid advertId,
             CancellationToken cancellationToken = default)
         {
+
+            if (content.CanSeek)
+            {
+                content.Position = 0;
+            }
+
+            Console.WriteLine(
+                $"ContentType: {contentType}");
+
             if (advertId == Guid.Empty)
                 throw new ArgumentException(
                     "AdvertId cannot be empty.");

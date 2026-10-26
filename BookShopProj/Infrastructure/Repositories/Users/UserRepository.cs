@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Domain.Entities.User;
 using System;
 using System.Collections.Generic;
@@ -15,6 +15,15 @@ namespace Infrastructure.Repositories.Users
         public UserRepository(AppDbContext dbContext)
             : base(dbContext)
         {
+        }
+
+        public Task<User?> GetByGoogleSubjectAsync(
+            string googleSubject,
+            CancellationToken cancellationToken = default)
+        {
+            return _dbSet.FirstOrDefaultAsync(
+                x => x.GoogleSubject == googleSubject,
+                cancellationToken);
         }
 
         public async Task<bool> ExistsByEmailAsync(string email, CancellationToken cancellationToken = default)

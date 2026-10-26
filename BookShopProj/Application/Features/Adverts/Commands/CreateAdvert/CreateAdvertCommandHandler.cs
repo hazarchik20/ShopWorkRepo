@@ -66,7 +66,7 @@ namespace Application.Features.Adverts.Commands.CreateAdvert
                 StateOfUse = request.StateOfUse,
                 AdvertDealType = request.AdvertDealType,
                 SellerType = request.SellerType,
-                Status = AdvertStatus.Review,
+                Status = AdvertStatus.Active,
                 Genres = request.Genres.ToList(),
                 CreatedAt = now,
                 UpdatedAt = now

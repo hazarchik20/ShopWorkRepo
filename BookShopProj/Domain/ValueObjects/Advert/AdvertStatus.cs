@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace Domain.ValueObjects.Advart
 {
-
     public enum AdvertStatus
     {
         Review = 0,

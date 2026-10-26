@@ -29,7 +29,7 @@ namespace Domain.Entities.Advert
         public AdvertStateOfUse StateOfUse { get; set; }
         public AdvertDealType AdvertDealType { get; set; }
         public AdvertSellerType SellerType { get; set; }
-        public AdvertStatus Status { get; set; } = AdvertStatus.Review;
+        public AdvertStatus Status { get; set; } = AdvertStatus.Active;
 
         public List<AdvertGenres> Genres { get; set; } = new();
         public List<string> ImagesLinks { get; set; } = new();

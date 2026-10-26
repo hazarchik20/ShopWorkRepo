@@ -1,4 +1,5 @@
-﻿using Application.Abstractions.Authentication;
+using Application.Abstractions.Authentication;
+using Infrastructure.Authentication;
 using Application.Abstractions.Persistence;
 using Application.Abstractions.Persistence.Advart;
 using Application.Abstractions.Persistence.User;
@@ -41,6 +42,13 @@ namespace Infrastructure
             // Authentication
             services.AddScoped<IPasswordHasher, PasswordHasherService>();
             services.AddScoped<ITokenService, TokenService>();
+            services.AddScoped<IGoogleTokenVerifier, GoogleIdTokenVerifier>();
+
+            services.AddOptions<GoogleAuthOptions>()
+                .Bind(configuration.GetSection(GoogleAuthOptions.SectionName))
+                .Validate(options => !string.IsNullOrWhiteSpace(options.ClientId),
+                    "GoogleAuth:ClientId is required.")
+                .ValidateOnStart();
 
 
             services.AddOptions<FileStorageOptions>()

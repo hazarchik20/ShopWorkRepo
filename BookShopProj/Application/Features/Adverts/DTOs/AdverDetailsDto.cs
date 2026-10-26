@@ -13,6 +13,7 @@ namespace Domain.Entities.Advert
         Guid UserId,
         string Title,
         string Description,
+        string? Town ,
         decimal Price,
         bool IsPriceNegotiable,
         AdvertStateOfUse StateOfUse,

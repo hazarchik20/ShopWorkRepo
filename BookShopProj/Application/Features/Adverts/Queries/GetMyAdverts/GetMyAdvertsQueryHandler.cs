@@ -41,14 +41,15 @@ namespace Application.Features.Adverts.Queries.GetMyAdverts
                 cancellationToken);
 
             var items = adverts.Select(x => new AdvertShortDto(
-                x.Id,
-                x.Title,
-                x.Price,
-                x.IsPriceNegotiable,
-                x.ImagesLinks.FirstOrDefault(),
-                x.Status,
-                x.CreatedAt,
-                x.Town
+                Id: x.Id,
+                Title: x.Title,
+                Price: x.Price,
+                IsPriceNegotiable: x.IsPriceNegotiable,
+                ImageLink: x.ImagesLinks.FirstOrDefault(),
+                Status: x.Status,
+                CreatedAt: x.CreatedAt,
+                StateOfUse: x.StateOfUse,
+                Town: x.Town
             )).ToList();
 
             var result = new PagedResult<AdvertShortDto>(

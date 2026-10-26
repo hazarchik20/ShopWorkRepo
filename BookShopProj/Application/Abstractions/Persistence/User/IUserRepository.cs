@@ -1,4 +1,4 @@
-﻿using Domain.Entities.User;
+using Domain.Entities.User;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +11,11 @@ namespace Application.Abstractions.Persistence.User
     {
         Task<Domain.Entities.User.User?> GetByEmailAsync(
             string email,
+            CancellationToken cancellationToken = default
+        );
+
+        Task<Domain.Entities.User.User?> GetByGoogleSubjectAsync(
+            string googleSubject,
             CancellationToken cancellationToken = default
         );
 

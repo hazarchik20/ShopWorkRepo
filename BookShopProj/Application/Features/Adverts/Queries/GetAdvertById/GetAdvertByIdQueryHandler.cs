@@ -46,6 +46,7 @@ namespace Application.Features.Adverts.Queries.GetAdvertById
                 advert.UserId,
                 advert.Title,
                 advert.Description,
+                advert.Town,
                 advert.Price,
                 advert.IsPriceNegotiable,
                 advert.StateOfUse,

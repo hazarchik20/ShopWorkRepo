@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +12,10 @@ namespace Domain.Entities.User
 
         public string Name { get; set; } = null!;
         public string Email { get; set; } = null!;
-        public string PasswordHash { get; set; } = null!;
+        public string? PasswordHash { get; set; }
+
+        // Stable Google account ID (OIDC sub), never use email as a Google identity.
+        public string? GoogleSubject { get; set; }
 
         public string? FirstName { get; set; }
         public string? LastName { get; set; }

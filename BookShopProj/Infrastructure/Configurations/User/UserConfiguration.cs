@@ -55,6 +55,16 @@ namespace Infrastructure.Configurations.User
             builder.Property(x => x.Town)
                 .HasMaxLength(150);
 
+            builder.Property(x => x.PasswordHash)
+                .IsRequired(false);
+
+            builder.Property(x => x.GoogleSubject)
+                .HasMaxLength(255)
+                .IsRequired(false);
+
+            builder.HasIndex(x => x.GoogleSubject)
+                .IsUnique()
+                .HasFilter("[GoogleSubject] IS NOT NULL");
             // Dates
             builder.Property(x => x.CreatedAt)
                 .IsRequired()
