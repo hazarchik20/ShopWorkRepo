@@ -8,7 +8,7 @@ namespace Domain.ValueObjects.Advart
 {
     public enum AdvertDealType
     {
-        For_sale= 0,
+        ForSale= 0,
         Exchange=1,
         Free=2,
     }

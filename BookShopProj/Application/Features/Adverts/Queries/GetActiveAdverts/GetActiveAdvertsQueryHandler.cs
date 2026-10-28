@@ -24,19 +24,27 @@ namespace Application.Features.Adverts.Queries.GetActiveAdverts
             _advertRepository = advertRepository;
         }
 
-        public async Task<Result<PagedResult<AdvertShortDto>>> Handle(GetActiveAdvertsQuery request, CancellationToken cancellationToken)
+
+        public async Task<Result<PagedResult<AdvertShortDto>>> Handle(
+            GetActiveAdvertsQuery request,
+            CancellationToken cancellationToken)
         {
             var page = Math.Max(1, request.Page);
             var pageSize = Math.Clamp(request.PageSize, 1, 48);
-            var sort = request.Sort is "newest" or "priceAsc" or "priceDesc"
-                ? request.Sort : "newest";
-            var adverts = await _advertRepository.GetActiveAsync(
-                request.Page,
-                request.PageSize,
-                cancellationToken);
 
-            var totalCount = await _advertRepository.CountActiveAsync(
-                cancellationToken);
+            var sort = request.Sort is "newest" or "priceAsc" or "priceDesc"
+                ? request.Sort
+                : "newest";
+
+            var (adverts, totalCount) =
+                await _advertRepository.GetCatalogAsync(
+                    request.Search,
+                    request.StateOfUse,
+                    sort,
+                    page,
+                    pageSize,
+                    cancellationToken
+                );
 
             var items = adverts.Select(x => new AdvertShortDto(
                 x.Id,
@@ -52,13 +60,14 @@ namespace Application.Features.Adverts.Queries.GetActiveAdverts
 
             var result = new PagedResult<AdvertShortDto>(
                 items,
-                request.Page,
-                request.PageSize,
+                page,
+                pageSize,
                 totalCount
             );
 
             return Result<PagedResult<AdvertShortDto>>.Success(result);
         }
+
     }
 
 }

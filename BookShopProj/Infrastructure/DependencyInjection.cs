@@ -1,10 +1,12 @@
 using Application.Abstractions.Authentication;
-using Infrastructure.Authentication;
 using Application.Abstractions.Persistence;
 using Application.Abstractions.Persistence.Advart;
+using Application.Abstractions.Persistence.Order;
 using Application.Abstractions.Persistence.User;
 using Application.Abstractions.Storage;
+using Infrastructure.Authentication;
 using Infrastructure.Repositories.Advart;
+using Infrastructure.Repositories.Order;
 using Infrastructure.Repositories.Users;
 using Infrastructure.Services;
 using Infrastructure.Storage;
@@ -35,6 +37,7 @@ namespace Infrastructure
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IUserSecurityRepository, UserSecurityRepository>();
             services.AddScoped<IAdvertRepository, AdvertRepository>();
+            services.AddScoped<IOrderRepository, OrderRepository>();
 
             // Unit of Work
             services.AddScoped<IUnitOfWork, UnitOfWork>();

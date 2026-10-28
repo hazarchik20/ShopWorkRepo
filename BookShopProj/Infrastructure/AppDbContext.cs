@@ -1,4 +1,5 @@
 ﻿using Domain.Entities.Advert;
+using Domain.Entities.Order;
 using Domain.Entities.User;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -22,6 +23,7 @@ namespace Infrastructure
         public DbSet<User> Users => Set<User>();
         public DbSet<UserSecurity> UserSecurities => Set<UserSecurity>();
         public DbSet<Advert> Adverts => Set<Advert>();
+        public DbSet<Order> Orders => Set<Order>();
 
         protected override void OnModelCreating(
             ModelBuilder modelBuilder)

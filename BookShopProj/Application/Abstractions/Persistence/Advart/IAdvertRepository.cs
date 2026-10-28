@@ -37,6 +37,13 @@ namespace Application.Abstractions.Persistence.Advart
           AdvertStateOfUse? stateOfUse,
           int take,
           CancellationToken cancellationToken = default);
+        Task<(List<Advert> Items, int TotalCount)> GetCatalogAsync(
+          string? search,
+          AdvertStateOfUse? stateOfUse,
+          string? sort,
+          int page,
+          int pageSize,
+          CancellationToken cancellationToken = default);
     }
 
 }
